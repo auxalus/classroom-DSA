@@ -4,7 +4,6 @@ class Node:
         self.data = val
         self.next = None
 
-
 class LinkedList:
     
     def __init__(self):
@@ -19,8 +18,7 @@ class LinkedList:
             temp = self.head
             while (temp.next != None):
                 temp = temp.next
-            temp.next = new_node              #appending the new node
-
+            temp.next = new_node #appending the new node
 
 
     def print(self):
@@ -30,7 +28,6 @@ class LinkedList:
                 sum += temp.data
             temp = temp.next
         print(sum)
-
 
 
 list = LinkedList()
