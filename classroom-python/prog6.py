@@ -8,6 +8,7 @@ n = int(input("enter your number : "))
 m = int(input("enter your 2nd number : "))
 k = input("enter your name : ")
 this_list.insert(2,n)
+this_list.insert(2,m)
 this_list.append(k)
 
 print(this_list)
