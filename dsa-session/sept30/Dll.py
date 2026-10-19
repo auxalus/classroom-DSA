@@ -69,9 +69,38 @@ class Doubly_LLL:
             if temp.next:
                 temp.next.prev=temp.prev
             temp=None
+    def count_occ(self, value):
+        count = 0
+        temp = self.head
+        while temp:
+            if temp.data == value:
+                count += 1
+            temp = temp.next
+        return count
 
-
-
+    def swapfunction(self):
+        first = self.head
+        if first is None or first.next is None:
+            return
+        last = first
+        while last.next:
+            last = last.next
+        if first.next is last:
+            first.prev = last
+            first.next = None
+            last.prev = None
+            last.next = first
+        else:
+            before_last = last.prev
+            after_first = first.next
+            last.prev = None
+            last.next = after_first
+            after_first.prev = last
+            before_last.next = first
+            first.prev = before_last
+            first.next = None
+        self.head = last
+        
 list= Doubly_LLL()
 n1=Node(10)
 n2=Node(20)
@@ -86,6 +115,7 @@ list.append(n5)
 list.append(Node(60))
 
 list.print()
+print("Occurrences of 30:", list.count_occ(30))
 
 # list.insert(Node(25),7)
 # list.print()
