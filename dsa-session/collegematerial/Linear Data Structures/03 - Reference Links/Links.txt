@@ -1,0 +1,17 @@
+Links
+
+https://www.sanfoundry.com/data-structure-questions-answers-queue-linked-list/
+
+https://www.geeksforgeeks.org/quizzes/top-mcqs-on-queue-data-structure-with-answers/
+
+https://wayground.com/activity/admin/quiz/6065ad62ed9dc0001b42ff34/stack-queue-linked-list
+
+https://www.geeksforgeeks.org/quizzes/top-mcqs-on-stack-data-strcuture-with-answers/
+
+https://www.geeksforgeeks.org/quizzes/top-mcqs-on-linked-list-data-structure-with-answers/
+
+examveda.com/data-structure/practice-mcq-question-on-linked-lists-in-data-structures/
+
+https://www.scribd.com/document/889705469/Queues-Linkedlists-Mcq
+
+https://ds1-iiith.vlabs.ac.in/exp/stacks-queues/posttest.html?utm_source=chatgpt.com
